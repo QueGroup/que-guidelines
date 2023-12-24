@@ -55,6 +55,8 @@ All important imports or imports from node_modules should be higher than style i
     }
 ```
 
+Now we use 16.0 Node, in plans we want to use newer version, but you should have node.js version 16 or higher
+
 ## Redux
 
 Redux is used to manage the application state. The project includes a separate redux folder where redux slicers, reducers, and other components related to state management are located.
