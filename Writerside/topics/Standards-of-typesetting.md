@@ -1,3 +1,5 @@
+# Frontend Guidelines
+
 ## HTML
 
 The following tags are used to build the structure of the web application:
