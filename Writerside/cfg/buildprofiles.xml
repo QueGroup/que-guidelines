@@ -1,0 +1,19 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <primary-color>purple</primary-color>
+        <!--<header-logo>my-logo.png</header-logo>-->
+        <product-web-url>https://help.example.com</product-web-url>
+        <!--<custom-favicons>favicon.png</custom-favicons>-->
+    </variables>
+    <build-profile instance="instance_id"/>
+    <footer>
+        <copyright>Product 2021-2023</copyright>
+        <social type="blog" href="https://t.me/que_group"/>
+        <social type="email" href="team@que-group.ru"/>
+        <link href="https://github.com/QueGroup">GitHub</link>
+        <link href="https://stackoverflow.com">Telegram community</link>
+        <link href="https://example.com/terms-an-conditions.html">Terms and conditions</link>
+        <link href="https://example.com/code-of-conduct.html">Code of Conduct</link>
+    </footer>
+</buildprofiles>
