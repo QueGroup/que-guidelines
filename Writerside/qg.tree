@@ -3,12 +3,10 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="qg"
-                 name="Que guidelines"
-                 start-page="starter-topic.md">
-
+                  name="Que guidelines"
+                  start-page="starter-topic.md">
     <toc-element topic="starter-topic.md"/>
     <toc-element topic="Contribution-guidelines.md"/>
-    <toc-element topic="How-to-do-a-code-review.md"/>
     <toc-element topic="Commit-writing-standards.md"/>
     <toc-element topic="Standards-of-typesetting.md"/>
 </instance-profile>

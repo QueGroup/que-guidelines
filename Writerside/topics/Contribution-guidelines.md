@@ -36,3 +36,10 @@ Some introductory information.
     - List item
     - List item
     - List item
+
+<seealso>
+    <category ref="doc">
+        <a href="https://google.github.io/styleguide/">Code Style</a>
+        <a href="https://google.github.io/eng-practices/review/reviewer/">How to do code review</a>
+    </category>
+</seealso>

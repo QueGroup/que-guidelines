@@ -1,8 +1,9 @@
-# Frontend Guidelines
+# Standards of typesetting
 
 ## HTML
 
 The following tags are used to build the structure of the web application:
+
 - ```<header>``` - used to include the webpage header.
 - ```<main>``` - denotes the main content of the document.
 - ```<footer>``` - defines the footer or bottom part of the page.
@@ -13,9 +14,11 @@ for other blocks or react components you should use ```<div>```
 
 ## CSS (SCSS)
 
-Sass is used as the style preprocessor. Styles are organized into modules for React components, which means using ```.module.scss``` files with node-sass.
+Sass is used as the style preprocessor. Styles are organized into modules for React components, which means
+using ```.module.scss``` files with node-sass.
 
-Also you should use mixins and variables for optimizing the file structure and you should save them into the ```mixins.scss``` and ```variables.scss``` respectively (in main ```src``` directory)
+Also, you should use mixins and variables for optimizing the file structure, and you should save them into
+the ```mixins.scss``` and ```variables.scss``` respectively (in main ```src``` directory)
 
 All styles should show the main meaning of the block. For example:
 
@@ -31,11 +34,14 @@ const MyComponent = () => {
 
 ## TypeScript
 
-The project employs TypeScript for strict typing to avoid errors, such as when passing properties to React components. TypeScript provides more reliable code through static typing.
+The project employs TypeScript for strict typing to avoid errors, such as when passing properties to React components.
+TypeScript provides more reliable code through static typing.
 
 ## React
 
-React components are organized into various folders based on their functional areas. For example, all components used in the header should be placed in a folder named header, where the file header.tsx contains all the components for that area. Style files are also located directly alongside the files where they are used.
+React components are organized into various folders based on their functional areas. For example, all components used in
+the header should be placed in a folder named header, where the file header.tsx contains all the components for that
+area. Style files are also located directly alongside the files where they are used.
 
 ```
 components
@@ -59,7 +65,8 @@ Now we use 16.0 Node, in plans we want to use newer version, but you should have
 
 ## Redux
 
-Redux is used to manage the application state. The project includes a separate redux folder where redux slicers, reducers, and other components related to state management are located.
+Redux is used to manage the application state. The project includes a separate redux folder where redux slicers,
+reducers, and other components related to state management are located.
 
 ```
 redux
@@ -67,11 +74,13 @@ redux
 |__store.js
 ```
 
-Don't use redux for simple programs/applications. Instead, it's better to use Context API or regular inheritance through component props.
+Don't use redux for simple programs/applications. Instead, it's better to use Context API or regular inheritance through
+component props.
 
 ## Image Placement
 
-All images (except SVG files) should be optimized to reduce file size. All images are located in the img folder, which in turn is located in the root directory public.
+All images (except SVG files) should be optimized to reduce file size. All images are located in the img folder, which
+in turn is located in the root directory public.
 
 Here is an example folder and file structure for ease of perception:
 
